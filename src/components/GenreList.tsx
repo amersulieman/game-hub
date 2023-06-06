@@ -1,5 +1,6 @@
 import { HStack, Heading, List, ListItem, Text } from "@chakra-ui/layout";
-import useGenres, { Genre } from "../hooks/useGenres";
+import useGenres from "../hooks/useGenres";
+import { Genre } from "../entities/Genre";
 import { Image } from "@chakra-ui/image";
 import getCroppedImageUrl from "../services/image-url";
 import { Spinner } from "@chakra-ui/spinner";
